@@ -1,0 +1,12 @@
+vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>q", ":q<CR>")
+vim.keymap.set("n", "<leader>wo", ":LspZeroFormat<CR>:w<CR>")
+vim.keymap.set("n", "<leader>wp", ":Prettier<CR>:w<CR>")
+vim.keymap.set("n", "<leader>w", ":w<CR>")
+vim.keymap.set("n", "<leader>fl", ":Ex<CR>")
+vim.keymap.set("n", "<leader>bn", ":bnext<CR>")
+vim.keymap.set("n", "<leader>bp", ":bprevious<CR>")
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+vim.keymap.set("v", "<leader>", ":bprevious<CR>")
+vim.keymap.set("n", "<leader>fl", ":NERDTree<CR>")
